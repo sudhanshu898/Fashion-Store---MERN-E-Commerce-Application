@@ -154,5 +154,5 @@ MERNStackeCommerce/
 This project is open source and available for educational purposes.
 
 ## 👨‍💻 Development
-
+https://fashion-store-frontend-liard.vercel.app
 Feel free to contribute or report issues!
