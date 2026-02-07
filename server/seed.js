@@ -25,7 +25,7 @@ const seedData = async () => {
             email: 'admin@fashionstore.com',
             password: hashedPassword,
             role: 'admin',
-            phone: '1234567890'
+            phone: '7878168324'
         });
         console.log('Admin user created: admin@fashionstore.com / admin123');
 
@@ -37,14 +37,17 @@ const seedData = async () => {
             password: customerPassword,
             role: 'customer',
             phone: '0987654321',
-            addresses: [{
-                addressLine1: '123 Main St',
-                city: 'New York',
-                state: 'NY',
-                zipCode: '10001',
-                country: 'USA',
-                isDefault: true
-            }]
+           addresses: [{
+    fullName: 'John Doe',
+    phone: '0987654321',
+    addressLine1: '123 Main St',
+    city: 'New York',
+    state: 'NY',
+    zipCode: '10001',
+    country: 'USA',
+    isDefault: true
+}]
+
         });
         console.log('Customer created: customer@example.com / customer123');
 
