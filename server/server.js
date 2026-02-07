@@ -23,7 +23,7 @@ const allowedOrigins = [
 ].filter(Boolean); // Remove undefined values
 
 app.use(cors({
-    origin: true,        // allow all origins in development
+    origin: "https://fashion-store-frontend-liard.vercel.app",        // allow all origins in development
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"]
